@@ -38,6 +38,12 @@
     color:#fff
 }
 
+h2 {
+   display: block;
+    color: black;
+    font-size: xx-large;
+    margin-top: 310px;
+}
 main {
     display: grid;
     width: 100%;
@@ -48,7 +54,8 @@ main {
 .gratitudes {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: .5in;
   }
 
   article {
