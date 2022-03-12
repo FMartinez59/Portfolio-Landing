@@ -39,12 +39,17 @@
 }
 
 main {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
 }
 
 
 section {
     display: block;
+    padding: 20px;
+    background-color: #40826d;
+    width: 100%;
 }
 
 
@@ -66,13 +71,14 @@ section {
     text-align: inherit;
     flex-direction: column;
     background-color: #40826D;
-    color: black
+    color: #fff
 }
 
 .p {
     background-color: #40826D;
     flex-direction: column;
     text-align: inherit;
+    color: #fff;
 }
 footer {
     padding: 2.5rem;
@@ -85,6 +91,7 @@ footer {
     bottom: -3px;
     width: 100%;
     height: 2.5rem;
+    color: #fff;
 }
 
 footer ul {
