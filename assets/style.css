@@ -38,11 +38,18 @@
     color:#fff
 }
 
+.work {
+margin: 25px;
+display: block;
+border-right: solid #40826d;
+} 
+
 h2 {
    display: block;
     color: black;
     font-size: xx-large;
-    margin-top: 310px;
+    margin-top: 271px;
+    margin-left: 83px;
 }
 main {
     display: grid;
@@ -66,9 +73,14 @@ main {
   }
 
 
-
-
-
+h3 {
+    display: block;
+    border: solid .5px #40826d;
+     background-image: linear-gradient(
+      rgba(186, 235, 216, 0.3) 0%,
+      rgba(102, 236, 199, 0.6) 100%
+        );
+      }
 
 
 
@@ -80,6 +92,7 @@ section {
     padding: 11px;
     background-color: #40826d;
     width: 100%;
+    margin-top: 87px;
 }
 
 
