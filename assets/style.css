@@ -165,17 +165,18 @@ footer ul li {
   }
   /* unvisited link */
 a:link {
-    color: #40826d;
+    color: darkgoldenrod;
   }
   
   /* visited link */
   a:visited {
-    color: plum;
+    color: pink;
   }
   
   /* mouse over link */
   a:hover {
     color: black;
+    font-size: 150%;
   }
   
   /* selected link */
