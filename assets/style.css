@@ -52,7 +52,8 @@ h2 {
     margin-left: 83px;
 }
 main {
-    display: grid;
+    /* display: grid; */
+    display: flex;
     width: 100%;
     grid-template-columns: repeat(5, 1fr);
 
@@ -132,7 +133,7 @@ footer {
   background-color: #40826d;
   color: #fff;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 51px;
 }
 
 footer ul {
