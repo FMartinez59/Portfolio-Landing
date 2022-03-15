@@ -4,3 +4,4 @@
 
 
 ##The purpose of the website is to display all the projects I have worked on and future ones to come. The website also has information about who I am and how to contact me. The webpage itself is not permanent so try to check on it every few months as I make changes or make a completely new one once I learn more new things.
+
