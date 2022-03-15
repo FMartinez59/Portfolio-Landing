@@ -165,12 +165,12 @@ footer ul li {
   }
   /* unvisited link */
 a:link {
-    color: darkgoldenrod;
+    color: navy;
   }
   
   /* visited link */
   a:visited {
-    color: pink;
+    color: navy;
   }
   
   /* mouse over link */
