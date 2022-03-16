@@ -1,10 +1,10 @@
+/* used this color a lot so I created a root for it */
 :root {
   --color: #40826d;
 }
 
 
-
-
+/* the header class was to style and color the Nav bar and its contents */
 .header {
     margin: 3px var(--color);
     display: block;
@@ -39,18 +39,19 @@
     margin-left: 25px;
     background-color: var(--color);
 }
-
+/* The background behind the phrases for my contact me and nav bar were white so I wanted it to match the rest of the background color
+so with this I made the n class to fix the issue and change the text color  */
 .n {
     background-color: var(--color);
     color:#fff
 }
-
+/* styles the section where I put my future projects */
 .work {
 margin: 25px;
 display: block;
 border-right: solid var(--color);
 } 
-
+/* styles the word "work" */
 h2 {
    display: block;
     color: black;
@@ -90,7 +91,7 @@ main {
       rgba(186, 235, 216, 0.3) 0%,
       rgba(102, 236, 199, 0.6) 100%);
 } 
-
+/* styles the resume section */
 section {
     display: flexbox;
     padding: 11px;
@@ -99,7 +100,7 @@ section {
     margin-top: 87px;
 }
 
-
+/* styles the images I have" */
 img {
    border-radius: 8px;
    display: block; 
@@ -109,7 +110,7 @@ img {
    border-radius: 19px;
 }
 
-
+/* originally this was fixed to the right as an aside section but I later changed it to be with the work items for scrolling purposes */
 .aside {
     display: block;
     margin: 20px 20px 20px 20px;
@@ -126,13 +127,14 @@ img {
     background-color: var(--color);
     color: #fff
 }
-
+/* similar issue with the nav bar links where the background behind the text was white and not green so this styles it and fixes the issue */
 .p {
     background-color: var(--color);
     flex-direction: column;
     text-align: inherit;
     color: #fff;
 }
+/* styles footer similar to nav bar but at the bottom of the page */
 footer {
   display: flex;
   justify-content: center;
@@ -152,7 +154,7 @@ footer ul li {
     display: inline-flex;
     justify-content: space-evenly;
 }
-
+/* makes layout responsive and accessible to mobile but its not pretty but it works */
 @media screen and (max-width: 768px) {
     header,
     main {
@@ -171,7 +173,7 @@ footer ul li {
         flex-direction: column;
     }
   }
-  /* unvisited link */
+  /* unvisited link this section is to add hover effect to everything that links out */
 a:link {
     color: navy;
   }
